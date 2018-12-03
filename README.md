@@ -17,3 +17,18 @@
 
 ##Reasoning about Object Affordances
 使用MLN(Markov Logic Network)学习一个知识库(KB)。给定学习的知识库，展示一系列视觉推断任务能通过不训练独特的分类器的方式被统一的框架解决。推断任务包括可供性预测以及人体姿态的对象识别。
+
+##Weakly and Semi Supervised Human Body Part Parsing via Pose-Guided Knowledge Transfer
+二维rgb图像+骨架->人体各个部位分割
+
+##A Papier-Mach ˆ e Approach to Learning 3D Surface Generation
+基于单张rgb图像或三维点云生成物体的三维网格（效果不是特别好）
+
+##Real-Time Seamless Single Shot 6D Object Pose Prediction
+输入单张rgb图像，检测图中物体并给出该物体的六个自由度的预测结果
+
+##Single-Image Depth Estimation Based on Fourier Domain Analysis
+输入单张rgb图像，预测图像的深度信息
+
+##Learning to Estimate 3D Human Pose and Shape from a Single Color Image
+单张rgb图像，基于smpl模型预测人体三维姿势
