@@ -1,0 +1,29 @@
+Inferring Forces and Learning Human Utilities From Videos
+Human Utilities 人类效用：由经济学和伦理学定义的可以驱使所有层面上的人类活动的快乐和满足，可以解释为什么人们选择某把椅子以及他们如何调整他们的坐姿从而更加舒适
+physical quantities 物理量
+the forces exerted on body parts 施加在身体部位上的力
+transcend 超越
+comfort intervals 舒适间隔
+hip 屁股
+notion 概念
+mass-spring system 质量弹簧系统
+Robotics 机器人技术
+musculoskeletal 肌（与）骨骼的
+soft body simulation 柔体动力学模拟
+realistic manner 真实方式
+spatiotemporal 时空的
+tetrahedralized 四面体化的
+inference 推断
+watertight 无懈可击的
+damping 阻尼
+converge 收敛
+armchair 扶手椅
+correlation 相关性
+canonical scenarios 规范场景
+cluttered scenarios 杂乱场景
+Poisson disk sampling 泊松圆盘采样
+
+研究的问题：human utilities
+相关工作：1.对可供性(affordance)建模。2.利用质量弹簧系统从视频中估计接触力和内关节扭转力。3.应用到机器人技术，理解和分析理性人类的轨迹。4.图形学上基于物理的人类模拟。
+论文贡献：1.在人和物体交互过程中用基于物理的柔体动力学模拟去推断看不见的物理量（力和压强）。2.给定由RGB-D传感器获得的静态场景，我们提出的架构思考了相关的物理学知识为了综合创造性的，物理稳定的坐在对象上的方式。3.通过结合传统的机器路径规划，我们的架构可以生成一个静态坐姿再推广到动态运动序列。4.通过人的演示，我们的系统学会了如何生成人体各部分力的直方图，从而有效定义了人类效用，例如根据身体各部分的力来定义舒适性。5.提供了一种生成人体模型的方法
+

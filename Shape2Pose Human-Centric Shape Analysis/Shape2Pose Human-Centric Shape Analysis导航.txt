@@ -1,0 +1,65 @@
+Shape2Pose: Human-Centric Shape Analysis
+acquisition 采集
+semantics 语义学
+functionality 功能性
+variance 变化
+anthropometric properties 人体测量特性
+bipedal devices 双足装置
+cockpit 驾驶员座舱
+cart 手推车
+salient 显著的
+handlebar 手把
+bilateral 双边的
+penetrate 穿透
+akin 相似的
+rigid transformation 刚性变换
+curvature 曲率
+appendix 附加物
+ground truth真值、真实的有效值或者是标准的答案
+fall off 减少
+geodesic neighborhood 测地邻域
+diffuse indication 扩散标记
+armrest 扶手
+presumably 大概
+improbable 不太可能
+a fraction of a second 一会儿
+voxel 体素
+with respect to 关于
+qualitative 定性的
+wheelbarrow 独轮手推车
+conjecture 推测
+sparse 稀疏的
+morphing 图像变换
+biomechanic 生物力学
+
+输入：3d形状
+输出：预测的相应人体姿势（接触点和运动学参数）
+论文贡献：1.介绍了Shape2Pose，一个新颖的基于可供性的形状分析工具，能够预测人体姿势参数和表面接触点。2.开发了一个有效的多项式时间的算法可以通过预计算身体部分的概率分布来探究接触任务的组合空间。3.创建了一个含有147个模型的数据集
+应用：1.利用预处理的3d模型集合中形状的关键点找到新模型表面的相似性。2.预测人使用对象上某个点的重要性。3.给定一个对象，在数据库里查找相似的对象
+
+为了完全理解人造形状的语义，人们需要回答“人们如何与这些对象交互”这一问题
+能够预测 人为了使用一个对象而采取的静态姿势 的新颖算法
+接触点通常有连续的局部几何特征
+我们的方法有效结合了局部区域分类和全局运动学限制搜索来预测各种各样对象上的姿势
+在6种（椅子、健身器材、驾驶员座舱、手推车、单车、双足装置）一共147个3d多边形模型上评估了算法
+大多数之前的算法的工作重点在于几何分析，主要是使用计算全局形状特性，提取部件结构和探测局部形状特性的技术，对语义和功能上的信息没什么用
+object affordance – a quality of an object that allows someone to perform an action [Gibson 1977]
+我们的方法基于以下的观察：1.局部几何特征与对应身体部分的几何有很强的关联。2.人体姿势从属于运动限制和先验（某种认知？暂时理解成先于经验的经验吧）。3.人是对称的。4.形状表面不能被人穿透
+我们使用自底向上和自顶向下的搜索来利用局部特征(1)和全局限制(2,3,4)。
+自底向上：一个分类器来预测表面的候选接触点
+自顶向下：搜索最合理的允许达到高可能性接触的姿势
+在身体接触点任务的组合空间中以多项式时间找到近似最小值的最优化算法
+Shape2Pose：一种可以为人体姿势预测运动学参数和人与形状表面的接触点的算法
+我们的系统由两部分组成：训练和预测
+训练阶段：输入是一个手工标注好的用连接角度代表的姿势和接触点的集合，输出是由一个测量任何模型姿势的目的函数代表的可供性模型
+预测阶段：输入是一个新模型，输出是一个可能的人体交互姿势的连接角度和接触点的集合
+训练阶段要创建一个能量函数来评估人体姿势和形状的交互。
+人的姿势由固定变换T，关节点角度θ={θ1, θ2…}以及关键部位P(back，pelvis，palms，toes)和接触点分布m:P->SU{ground,unassigned}，ground代表平地，unassigned代表未分配，也就是放在哪里都行
+模型定义为最小化能量函数E(T,θ,m,S)
+Edist：身体部分没有位于目标点
+Efeat：局部表面集合不符合相应部分的放置
+Epose：不合理的姿势
+Esym：物体与人的对称性不符
+Eisect：人和物体表面相交
+身体部分P(back，pelvis，palms，toes)
+接触点：先在形状表面采样100000·A个点，A是面积(m^2)，再确定哪些点是接触点。
