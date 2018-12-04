@@ -118,3 +118,39 @@
 ##Trust your Model Light Field Depth Estimation with inline Occlusion Handling
 
 输入rgb图像，给出深度预测
+
+##3D Human Pose Estimation in the Wild by Adversarial Learning
+
+输入rgb图像，给出人的三维骨架预测结果
+
+##Aperture Supervision for Monocular Depth Estimation
+
+输入rgb图像，给出深度估计
+
+##Dense Decoder Shortcut Connections for Single-Pass Semantic Segmentation
+
+输入rgb图像，给出对象的语义分割(分割出图像中的物体，像素级)
+
+##Fully Convolutional Adaptation Networks for Semantic Segmentation
+
+输入rgb图像，给出对象的语义分割(分割出图像中的物体，像素级)
+
+##End-to-end Recovery of Human Shape and Pose
+
+输入rgb图像，估计出对应的三维人体模型，并给出图像上人各个部位的划分
+
+##Context Encoding for Semantic Segmentation
+
+输入rgb图像，给出对象的语义分割(分割出图像中的物体，像素级)
+
+##Ordinal Depth Supervision for 3D Human Pose Estimation
+
+输入rgb图像，给出人体三维骨架预测
+
+##Multi-Task Learning Using Uncertainty to Weigh Losses
+
+输入rgb图像，分割出图像中的物体并给出图的深度预测
+
+##Path Aggregation Network for Instance Segmentation
+
+输入rgb图像，给出对象的语义分割(分割出图像中的物体，像素级)
