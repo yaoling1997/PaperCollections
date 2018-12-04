@@ -19,6 +19,10 @@
 
 使用MLN(Markov Logic Network)学习一个知识库(KB)。给定学习的知识库，展示一系列视觉推断任务能通过不训练独特的分类器的方式被统一的框架解决。推断任务包括可供性预测以及人体姿态的对象识别。
 
+#CVPR2018
+
+begin
+
 ##Weakly and Semi Supervised Human Body Part Parsing via Pose-Guided Knowledge Transfer
 
 二维rgb图像+骨架->人体各个部位分割
@@ -154,3 +158,5 @@
 ##Path Aggregation Network for Instance Segmentation
 
 输入rgb图像，给出对象的语义分割(分割出图像中的物体，像素级)
+
+end
