@@ -50,3 +50,71 @@
 ##Recurrent Scene Parsing with Perspective Understanding in the Loop
 
 输入单张rgb图像给出深度预测
+
+##Human Semantic Parsing for Person Re-identification
+
+输入rgb图像，给出像素级的人的各部位分割
+
+##Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and
+
+输入rgb图像，输出物体的定位结果和划分结果
+
+##Bootstrapping the Performance of Webly Supervised Semantic Segmentation
+
+输入rgb图像，输出物体的划分结果
+
+##A Bi-directional Message Passing Model for Salient Object Detection
+
+输入rgb图像，输出物体的特征图结果（突出对象的检测结果）
+
+##Matryoshka Networks Predicting 3D Geometry via Nested Shape Layers
+
+输入单个对象的rgb图像，给出该对象三维物体重建结果
+
+##Deep Ordinal Regression Network for Monocular Depth Estimation
+
+输入rgb图像，输出深度预测结果
+
+##MegaDepth Learning Single-View Depth Prediction from Internet Photos
+
+输入rgb图像，输出深度预测结果
+
+##Monocular 3D Pose and Shape Estimation of Multiple People in Natural Scenes
+
+输入rgb图像，给出人各部位的划分，再建出人体三维模型
+
+##AdaDepth Unsupervised Content Congruent Adaptation for Depth Estimation
+
+输入rgb图像，给出深度估计
+
+##Pix3D Dataset and Methods for Single-Image 3D Shape Modeling
+
+输入rgb图像，检索图像中物体对应的三维模型并给出该模型的位姿估计(将三维模型与图像中的物体对齐)
+
+##3D Pose Estimation and 3D Model Retrieval for Objects in the Wild
+
+输入rgb图像，检索图像中物体对应的三维模型并给出该模型的位姿估计(将三维模型与图像中的物体对齐)
+
+##3D-RCNN Instance-level 3D Object Reconstruction via Render-and-Compare
+
+输入rgb图像，重建出人体模型和三维物体模型
+
+##Structured Attention Guided Convolutional Neural Fields for Monocular Depth Estimation
+
+输入rgb图像，给出深度预测
+
+##MaskLab Instance Segmentation by Refining Object Detection with Semantic
+
+输入rgb图像，给出人和物体的划分结果
+
+##Learning to Segment Every Thing
+
+输入rgb图像，划分出所有的人和物（像素级）
+
+##Im2Struct Recovering 3D Shape Structure from a Single RGB Image
+
+输入含单个物体的rgb图像，用基本的几何体构建该物体三维模型
+
+##Trust your Model Light Field Depth Estimation with inline Occlusion Handling
+
+输入rgb图像，给出深度预测
