@@ -27,6 +27,8 @@ begin
 
 二维rgb图像+骨架->人体各个部位分割
 
+源码：https://github.com/MVIG-SJTU/WSHP
+
 ##A Papier-Mach ˆ e Approach to Learning 3D Surface Generation
 
 基于单张rgb图像或三维点云生成物体的三维网格（效果不是特别好）
@@ -55,9 +57,13 @@ begin
 
 输入单张rgb图像给出深度预测
 
+源码：https://github.com/aimerykong/Recurrent-Scene-Parsing-with-Perspective-Understanding-in-the-loop
+
 ##Human Semantic Parsing for Person Re-identification
 
 输入rgb图像，给出像素级的人的各部位分割
+
+源码：https://github.com/emrahbasaran/SPReID
 
 ##Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and
 
@@ -79,9 +85,13 @@ begin
 
 输入rgb图像，输出深度预测结果
 
+源码：https://github.com/dontLoveBugs/DORN_pytorch
+
 ##MegaDepth Learning Single-View Depth Prediction from Internet Photos
 
 输入rgb图像，输出深度预测结果
+
+源码：https://github.com/lixx2938/MegaDepth
 
 ##Monocular 3D Pose and Shape Estimation of Multiple People in Natural Scenes
 
@@ -95,6 +105,8 @@ begin
 
 输入rgb图像，检索图像中物体对应的三维模型并给出该模型的位姿估计(将三维模型与图像中的物体对齐)
 
+源码：https://github.com/xingyuansun/pix3d
+
 ##3D Pose Estimation and 3D Model Retrieval for Objects in the Wild
 
 输入rgb图像，检索图像中物体对应的三维模型并给出该模型的位姿估计(将三维模型与图像中的物体对齐)
@@ -107,6 +119,8 @@ begin
 
 输入rgb图像，给出深度预测
 
+源码：https://github.com/danxuhk/StructuredAttentionDepthEstimation
+
 ##MaskLab Instance Segmentation by Refining Object Detection with Semantic
 
 输入rgb图像，给出人和物体的划分结果
@@ -114,6 +128,8 @@ begin
 ##Learning to Segment Every Thing
 
 输入rgb图像，划分出所有的人和物（像素级）
+
+源码：https://github.com/ronghanghu/seg_every_thing
 
 ##Im2Struct Recovering 3D Shape Structure from a Single RGB Image
 
@@ -143,6 +159,8 @@ begin
 
 输入rgb图像，估计出对应的三维人体模型，并给出图像上人各个部位的划分
 
+源码：https://github.com/akanazawa/hmr
+
 ##Context Encoding for Semantic Segmentation
 
 输入rgb图像，给出对象的语义分割(分割出图像中的物体，像素级)
@@ -151,12 +169,29 @@ begin
 
 输入rgb图像，给出人体三维骨架预测
 
+源码：https://github.com/geopavlakos/ordinal-pose3d
+
 ##Multi-Task Learning Using Uncertainty to Weigh Losses
 
 输入rgb图像，分割出图像中的物体并给出图的深度预测
+
+源码（还没放上去）：https://github.com/alexgkendall/multitaskvision
 
 ##Path Aggregation Network for Instance Segmentation
 
 输入rgb图像，给出对象的语义分割(分割出图像中的物体，像素级)
 
 end
+
+
+##DensePose
+
+实时估计2d图像上人的三维模型
+
+源码：https://github.com/facebookresearch/DensePose
+
+##Fully Convolutional Instance-aware Semantic Segmentation
+
+rgb图像上的语义划分，划分出人和物体
+
+源码：https://github.com/msracver/FCIS
