@@ -55,7 +55,7 @@ begin
 
 ##Recurrent Scene Parsing with Perspective Understanding in the Loop
 
-输入单张rgb图像给出深度预测
+输入单张rgb图像给出深度预测和对象的语义分割
 
 源码：https://github.com/aimerykong/Recurrent-Scene-Parsing-with-Perspective-Understanding-in-the-loop
 
