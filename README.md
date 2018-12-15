@@ -181,6 +181,10 @@ begin
 
 输入rgb图像，给出对象的语义分割(分割出图像中的物体，像素级)
 
+##Beyond Holistic Object Recognition
+
+输入rgb图像，给出图像的部件级语义分割和部件间的交互状态
+
 end
 
 
