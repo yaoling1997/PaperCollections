@@ -199,3 +199,7 @@ end
 rgb图像上的语义划分，划分出人和物体
 
 源码：https://github.com/msracver/FCIS
+
+##Part-based R-CNNs for Fine-grained Category Detection
+
+输入rgb图像，给出对象各个部位的包围盒结果
