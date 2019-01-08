@@ -203,3 +203,13 @@ rgb图像上的语义划分，划分出人和物体
 ##Part-based R-CNNs for Fine-grained Category Detection
 
 输入rgb图像，给出对象各个部位的包围盒结果
+
+##SMPL A Skinned Multi-Person Linear Model
+
+smpl模型介绍
+
+##Keep it SMPL Automatic Estimation of 3D Human Pose and Shape from a Single Image
+
+单幅图估计smpl模型
+
+源码：http://smplify.is.tue.mpg.de/
