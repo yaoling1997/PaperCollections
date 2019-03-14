@@ -1,6 +1,3 @@
-估计人和物体相互遮挡的像素
-ISMAR 2018的会议论文：
-https://www.ismar2018.org/sessions_papers/index.html
-VR 2018的会议论文
-http://ieeevr.org/2018/program/papers.html
-根据论文题目在google上搜索相应文章，高校基本都买了浏览电子版论文的版权，大家在校内可以免费阅览
+The Effect of Realistic Appearance of Virtual Characters in Immersive Environments - Does the Character's Personality Play a Role?
+Simulating Movement Interactions between Avatars & Agents in Virtual Worlds Using Human Motion Constraints
+Performance-Driven Dance Motion Control of a Virtual Partner Character
