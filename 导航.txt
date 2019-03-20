@@ -1,3 +1,0 @@
-The Effect of Realistic Appearance of Virtual Characters in Immersive Environments - Does the Character's Personality Play a Role?
-Simulating Movement Interactions between Avatars & Agents in Virtual Worlds Using Human Motion Constraints
-Performance-Driven Dance Motion Control of a Virtual Partner Character
