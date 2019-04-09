@@ -1,7 +1,8 @@
 [常见的 360° 全景视频格式介绍及播放方式](https://www.bilibili.com/read/cv788511)
 [如何获取 360° 全景视频并转换为普通格式](https://www.bilibili.com/read/cv789142)
 [youtube360全景视频](https://www.youtube.com/channel/UCzuqhhs6NWbgTzMuM09WKDQ)
-[如何下载 360 度 YouTube 视频](https://www.4kdownload.com/zh-cn/howto/howto-download-360-degrees-youtube-videos)
+[3种下载YouTube视频的办法](https://jingyan.baidu.com/article/4b07be3c9bd26848b380f3c9.html)
+[saveFrom.net](https://zh.savefrom.net)
 用pr或ae编辑全景视频
 [Unity3D制作极简版VR全景视频播放器](https://blog.csdn.net/killfunst/article/details/79870427)
 [Unity如何制作360度全景视频？](https://jingyan.baidu.com/article/f71d6037c2c3ce1ab641d1fe.html)
