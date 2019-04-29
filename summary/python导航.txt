@@ -1,0 +1,2 @@
+python print输出到文件
+https://www.cnblogs.com/shenckicc/p/7010948.html
